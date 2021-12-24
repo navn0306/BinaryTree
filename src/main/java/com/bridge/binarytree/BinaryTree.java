@@ -2,7 +2,7 @@ package com.bridge.binarytree;
 
 public class BinaryTree<K extends Comparable> {
 
-    private BinaryNode<K>root;
+    public BinaryNode<K>root;
     public void add(K key) {
         this.root = this.addRecursively(root,key);
 
